@@ -1,0 +1,38 @@
+
+header #logos .logo1 img{
+	float:left;
+	margin-top:100px;
+	margin: 50px 0 0 30px;
+	margin-right: 0px;
+	margin-left: 275px;
+	margin-bottom: 0px;
+}
+header #logos .logo2 img{
+	float:left;
+	margin-top:100px;
+	margin: 35px 0 0 30px;
+	margin-right: 0px;
+	margin-left: 210px;
+	margin-bottom: 0px;
+}
+header #logos .logo3 img{
+	float:left;
+	margin-top:100px;
+	margin: 50px 0 0 30px;
+	margin-right: 0px;
+	margin-left: 210px;
+	margin-bottom: 0px;
+}
+header #logos hr{
+	margin:85px;
+	margin-left: 270px;
+	margin-bottom: 30px; 
+}
+
+
+ button .botonConfiguraciones{
+ margin: auto;
+ margin-left: 100px;
+ width: 100px;
+ height: 100px;
+ }

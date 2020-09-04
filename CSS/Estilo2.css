@@ -1,0 +1,159 @@
+/*header {
+	background-color:#E4E4E4;
+	height: 100px;
+	margin-top: 50px;
+	margin-right: 100px;
+	margin-left: 100px;
+	
+}
+*/
+
+header #logos .logo1 img{
+	float:left;
+	margin-top:100px;
+	margin: 50px 0 0 30px;
+	margin-right: 0px;
+	margin-left: 275px;
+	margin-bottom: 0px;
+}
+header #logos .logo2 img{
+	float:left;
+	margin-top:100px;
+	margin: 35px 0 0 30px;
+	margin-right: 0px;
+	margin-left: 210px;
+	margin-bottom: 0px;
+}
+header #logos .logo3 img{
+	float:left;
+	margin-top:100px;
+	margin: 50px 0 0 30px;
+	margin-right: 0px;
+	margin-left: 210px;
+	margin-bottom: 0px;
+}
+header #logos hr{
+	margin:85px;
+	margin-left: 270px;
+	margin-bottom: 30px; 
+}
+header #login .login1 {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+header #login body{
+	background: #DEDEDE;
+	display: flex;
+	min-height: 100vh;
+}
+header #login form{
+	margin: auto;
+	width: 50%;
+	max-width: 500px;
+	background: #F3F3F3;
+	padding: 30px;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+header #login h2{
+	text-align: center;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,0.5);
+}
+
+header #login input[type="submit"]{
+	background: linear-gradient(#FFDA63, #FFB940);
+	border: 0;
+	color: brown;
+	opacity: 0.8;
+	cursor:  pointer;
+	border-radius: 20px;
+	margin-bottom: 0;
+}
+
+input{
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin:30px 0;
+	font-size: 20px;
+}
+
+header #login input[type="submit"]:hover{
+	opacity: 1;
+}
+header #login input[type="submit"]:active{
+	transform: scale(0.95);
+}
+@media (max-width: 768px){
+	 body{
+		width: 75%;
+	}
+}
+@media (max-width: 480px){
+	 body{
+		width: 95%;
+	}
+}
+header #Nota form{
+	margin:auto;
+	text-align: center;
+	margin-bottom: 50px;
+	width: 50%;
+	max-width: 500px;
+	background: #FFFFFF;
+	padding: 30px;
+	color: rgba(0,0,0,0.5);
+	
+	/*border: 1px solid rgba(0,0,0,0.2);*/
+}
+
+
+
+/*
+header figure {
+	float: left;
+	margin-right: 100px;
+}
+
+header figure img{
+	width: 60px
+	height: 60px;
+}
+*/
+
+input .boton{
+	display: block;
+	padding: 10px;
+	width: 50%;
+	margin: auto 0px;
+	font-size: 20px;
+	margin-left: 30%;
+}
+
+input .Configuraciones{
+	display: block;
+	padding: 10px;
+	width: 50%;
+	margin: auto;
+	font-size: 20px;
+	margin-left: 30%;
+}
+
+footer .abajo{
+	font-family: "Arial";
+	font-size: 35px;
+	position: relative;
+	margin-top: -10px;
+	width: 100%;
+	padding:50px;
+	clear: both;
+	background: #000;
+	text-align: center;
+	color:#fff;
+}
+
+input.botonConfiguraciones{
+	
+}

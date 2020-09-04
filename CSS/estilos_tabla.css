@@ -1,0 +1,27 @@
+.Tabla{
+  /*position:center;*/
+  margin: auto;
+  border-collapse:collapse;
+  border:1px solid #CCC;
+}
+
+/* Espacio de relleno en celdas y cabeceras 
+.tabla td, th {
+  padding:10px;
+}
+
+ Modificación de estilos en celdas 
+.tabla td {
+  text-align:center;
+  border-bottom:2px solid #111;
+  color:#333;
+  font-size:18px;
+}
+*/
+.tabla th {     font-size: 13px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+.tabla td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+.tabla tr:hover td { background: #d0dafd; color: #339; }
